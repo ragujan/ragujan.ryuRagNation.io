@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.theHeadHomeDiv {
+    position: relative;
+}
+
+.noDragonVideo {
+    object-fit: cover;
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nextdiv {
+    position: absolute;
+    top: 100vh;
+    object-fit: cover;
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    left: 0;
+}
+
+.video4 {
+    position: absolute;
+    top: 200vh;
+    object-fit: cover;
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    left: 0;
+}
+
+.video5 {
+    position: fixed;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+video {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.video-wrapper {
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.video-wrapper2 {
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.video-wrapper4 {
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+}
+
+.contentdivfirst {
+    z-index: 5;
+    position: absolute;
+}
+
+.contentdivfirst2 {
+    top: 100vh;
+    position: absolute;
+    z-index: 8;
+    height: 100vh;
+    background-color: rgb(31, 31, 31);
+    /*box-shadow: -10px -150px 90px 0px rgba(0, 0, 0, 0.828);*/
+    box-shadow: 0 0 60px 30px rgb(31, 31, 31), /* inner white */
+    0 0 100px 60px rgb(31, 31, 31), /* middle magenta */
+    0 0 140px 90px rgb(31, 31, 31);
+    /* outer cyan */
+}
+
+.contentdivfirst3 {
+    top: 100vh;
+    position: absolute;
+    z-index: 8;
+    height: 100vh;
+    background-color: rgba(0, 255, 21, 0);
+    /* outer cyan */
+}
+
+.contentdivfirst4 {
+    top: 400vh;
+    position: absolute;
+    z-index: 8;
+    height: 100vh;
+    background-color: rgb(59, 0, 251);
+}
+
+.contentdivfirst4 {
+    top: 400vh;
+    position: absolute;
+    z-index: 8;
+    height: 300vh;
+    background-color: rgb(31, 31, 31);
+    /*box-shadow: -10px -150px 90px 0px rgba(0, 0, 0, 0.828);*/
+    box-shadow: 0 0 60px 30px rgb(31, 31, 31), /* inner white */
+    0 0 100px 60px rgb(31, 31, 31), /* middle magenta */
+    0 0 140px 90px rgb(31, 31, 31);
+}
+
+.contentdivfirst5 {
+    top: 700vh;
+    position: absolute;
+    z-index: 8;
+    height: 200vh;
+    /*box-shadow: -10px -150px 90px 0px rgba(0, 0, 0, 0.828);*/
+}
+
+.contentdivfirst6 {
+    top: 900vh;
+    position: absolute;
+    z-index: 8;
+    height: 300vh;
+    background: url('SiteImages/bottomOfTheSite.png') no-repeat;
+    background-size: 100%;
+    /*box-shadow: -10px -150px 90px 0px rgba(0, 0, 0, 0.828);*/
+}
+
+.bottomImage {
+    object-fit: fill;
+}
+
+.image8888Image {
+    width: 1000px;
+    max-width: 100%;
+}
+
+.roadMapImage {
+    width: 800px;
+    max-width: 100%;
+}
+
+.longImage {
+    width: 80%;
+    height: 1200px;
+}
+
+@media (max-width:576px) {
+    .longImage {
+        width: 90%;
+        height: 1000px;
+    }
+}
+
+.sociallinks {
+    width: 50px;
+    max-width: 100%;
+}
+
+.siteLogo {
+    width: 250px;
+    max-width: 100%;
+}
+
+.headerImage {
+    width: 800px;
+    max-width: 100%;
+}
+
+.headerImageDiv {}
+
+.headerTextDiv {
+    position: absolute;
+    z-index: 10;
+    top: 90%;
+}
+
+.headerTextDiv:hover {
+    animation: moveup;
+    font-size: 1.5rem;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.moveuptext {
+    animation: moveup;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes moveup {
+    from {
+        transform: translateY(100);
+    }
+    to {
+        transform: translateY(-60px);
+    }
+}
+
+.mintButtonDiv {
+    margin-top: 13%;
+}
+
+.mintButton {
+    width: 800px;
+    max-width: 100%;
+}
+
+.thirddivHearderImage {
+    width: 400px;
+    max-width: 100%;
+}
+
+.secondTextImage {
+    width: 500px;
+    max-width: 100%;
+}
+
+.firtImageDiv,
+.secondImageDiv {
+    margin-top: 25%;
+}
+
+.twoDragonImages {
+    width: 250px;
+    max-width: 100%;
+    border: white 5px solid;
+}
+
+.secondPara {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.roadMapImageDiv {
+    margin-top: -10%;
+}
+
+.textAfterLongImage {
+    width: 1200px;
+    max-width: 100%;
+}
+
+.dragonandchest {
+    width: 1200px;
+    max-width: 100%;
+}
+
+.ryuTeamImage {
+    width: 1200px;
+    max-width: 100%;
+}
+
+.ryuTeamImageDiv {
+    margin-top: 10%;
+}
+
+.sixDragonImages {
+    width: 300px;
+    max-width: 100%;
+}
+
+.dragonName {
+    width: 80px;
+    max-width: 100%;
+}
+
+.joinRyuImage {
+    width: 80%;
+    max-width: 100%;
+}
+
+.socialIconHoldingDiv {
+    margin-top: 20%;
+}
+
+.socialBigIconsImages {
+    width: 250px;
+    max-width: 100%;
+}
+
+.thirdImageDiv {
+    margin-top: 78%;
+}
+
+.firstdivITEMS {}
+
+.v1 {
+    top: 0vh;
+}
+
+.v2 {
+    top: 200vh;
+}
+
+.fillblack {
+    background-color: black;
+}
+
+.v4 {
+    top: 300vh;
+}
+
+.v5 {
+    top: 400vh;
+}
+
+.v6 {
+    top: 500vh;
+}
+
+.v7 {
+    top: 600vh;
+}
+
+.v8 {
+    top: 700vh;
+}
+
+.v9 {
+    top: 800vh;
+}
+
+@media(max-width:576px) {}

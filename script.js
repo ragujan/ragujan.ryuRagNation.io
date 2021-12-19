@@ -1,0 +1,1 @@
+var HT = document.getElementById('headerText');
