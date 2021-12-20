@@ -147,6 +147,10 @@ video {
     max-width: 100%;
 }
 
+.imgandtextholdingdiv {
+    background-color: blue;
+}
+
 .headerImageDiv {
     margin-top: 15%
 }
@@ -202,6 +206,11 @@ video {
         position: relative;
         z-index: 5;
         background-color: rgba(0, 255, 136, 0.424);
+    }
+    .imgandtextholdingdiv {
+        margin-top: 5%;
+        margin-bottom: auto;
+        background-color: blue;
     }
     .headerImageDiv {
         margin-top: 6%;
