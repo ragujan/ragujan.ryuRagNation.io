@@ -208,7 +208,8 @@ video {
         background-color: rgba(0, 255, 136, 0.424);
     }
     .imgandtextholdingdiv {
-        margin-top: 25%;
+        position: absolute;
+        top: 25vh;
         margin-bottom: auto;
         background-color: blue;
     }
