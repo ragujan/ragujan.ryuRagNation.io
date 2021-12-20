@@ -53,7 +53,7 @@ video {
     margin-top: -100vh;
     position: relative;
     z-index: 5;
-    background-color: rgba(0, 255, 76, 0.383);
+
 }
 
 .v1 {
@@ -205,7 +205,7 @@ video {
     .contentdivfirst {
         position: relative;
         z-index: 5;
-        background-color: rgba(0, 255, 136, 0.424);
+        
     }
     .imgandtextholdingdiv {
         position: absolute;
