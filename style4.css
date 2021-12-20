@@ -53,7 +53,7 @@ video {
     margin-top: -100vh;
     position: relative;
     z-index: 5;
-
+    background-color: rgba(0, 255, 76, 0.383);
 }
 
 .v1 {
@@ -147,9 +147,7 @@ video {
     max-width: 100%;
 }
 
-.imgandtextholdingdiv {
-    
-}
+.imgandtextholdingdiv {}
 
 .headerImageDiv {
     margin-top: 15%
@@ -205,13 +203,12 @@ video {
     .contentdivfirst {
         position: relative;
         z-index: 5;
-        
+        background-color: rgba(0, 255, 136, 0.424);
     }
     .imgandtextholdingdiv {
         position: absolute;
         top: 25vh;
         margin-bottom: auto;
-        
     }
     .headerImageDiv {
         margin-top: 6%;
