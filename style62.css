@@ -1,0 +1,513 @@
+.theHeadHomeDiv {
+    position: relative;
+}
+
+.sepv1div {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    height: 200vh;
+    overflow: hidden;
+    background-color: rgba(145, 17, 17, 0);
+}
+
+.sepv1 {
+    position: absolute;
+    left: 0vh;
+    height: 100vh;
+    object-fit: fill;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.sepv12 {
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    height: 100vh;
+    object-fit: fill;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.thesepratecontentdiv {
+    background-color: rgba(0, 128, 0, 0);
+    height: 100vh;
+    z-index: 5;
+    margin-top: 30%;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    .sepv1div {
+        position: relative;
+        display: flex;
+        height: 100vh;
+        background-color: rgba(145, 17, 17, 0);
+    }
+    .sepv1 {
+        position: absolute;
+        left: 0vh;
+        height: 50vh;
+        object-fit: fill;
+        min-width: 100%;
+        z-index: 0;
+    }
+    .sepv12 {
+        position: absolute;
+        top: 50vh;
+        left: 0;
+        height: 50vh;
+        object-fit: fill;
+        min-width: 100%;
+        z-index: 0;
+    }
+    .thesepratecontentdiv {
+        position: absolute;
+        z-index: 5;
+        margin-top: 0%;
+        overflow-y: scroll;
+        /* for Firefox */
+    }
+}
+
+.thesepratecontentdiv {
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+}
+
+.thesepratecontentdiv::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+.sepv1div2 {
+    position: relative;
+    z-index: 15;
+    display: flex;
+    height: 300vh;
+    box-shadow: 0 0 60px 60px rgb(31, 31, 31), /* inner white */
+    0 0 100px 60px rgb(31, 31, 31), /* middle magenta */
+    0 0 140px 90px rgb(31, 31, 31);
+    /*box-shadow: -10px -150px 90px 0px rgba(0, 0, 0, 0.828);*/
+}
+
+.sepv2 {
+    position: absolute;
+    left: 0vh;
+    height: 100vh;
+    object-fit: fill;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.sepv21 {
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    height: 100vh;
+    object-fit: fill;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.sepv22 {
+    position: absolute;
+    top: 200vh;
+    left: 0;
+    height: 100vh;
+    object-fit: fill;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.thesepratecontentdiv2 {
+    background-color: rgb(31, 31, 31);
+    height: 300vh;
+    z-index: 9;
+}
+
+.image8888Image {
+    width: 1000px;
+    max-width: 100%;
+}
+
+
+/**************/
+
+.roadMapImageDiv {
+    margin-top: -7%;
+}
+
+.roadMapImage {
+    width: 800px;
+    max-width: 100%;
+}
+
+.textAfterLongImage {
+    width: 1200px;
+    max-width: 100%;
+}
+
+
+/**************/
+
+.longImage {
+    width: 80%;
+    height: auto;
+    /*   height: 1200px;*/
+}
+
+.dragonandchest {
+    width: 1000px;
+    max-width: 100%;
+}
+
+.dragonandchest:hover {
+    animation: heartBeat;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.dragonandchest::after {
+    transform: scale(1);
+}
+
+@keyframes heartBeat {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.05);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@font-face {
+    font-family: "secondPara";
+    src: url(font/Lilian.ttf);
+}
+
+.longImagetext {
+    font-family: "secondPara";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5rem;
+    letter-spacing: 0.05rem;
+}
+
+@media (max-width: 1199.98px) {
+    .longImagetext {
+        font-family: "secondPara";
+        font-weight: bold;
+        font-style: italic;
+        font-size: 0.9rem;
+    }
+    .thesepratecontentdiv2 {
+        position: absolute;
+        z-index: 5;
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .longImagetext {
+        font-family: "secondPara";
+        font-weight: bold;
+        font-style: italic;
+        font-size: 0.9rem;
+    }
+    .thesepratecontentdiv2 {
+        position: absolute;
+        z-index: 5;
+        margin-top: 0%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .sepv1div2 {
+        position: relative;
+        z-index: 55;
+        display: flex;
+        margin-bottom: 0;
+        height: 200vh;
+        box-shadow: 0 0 30px 10px rgb(31, 31, 31), /* inner white */
+        0 0 20px 10px rgb(31, 31, 31), /* middle magenta */
+        0 0 20px 20px rgb(31, 31, 31);
+    }
+    .thesepratecontentdiv2 {
+        position: absolute;
+        z-index: 5;
+        height: 200vh;
+        background-color: rgba(31, 31, 31);
+        box-shadow: 0 0 30px 10px rgb(31, 31, 31), /* inner white */
+        0 0 20px 10px rgb(31, 31, 31), /* middle magenta */
+        0 0 20px 20px rgb(31, 31, 31);
+    }
+    .sepv2 {
+        position: absolute;
+        left: 0vh;
+        height: 66.6vh;
+        object-fit: fill;
+        min-width: 100%;
+        z-index: -1;
+    }
+    .sepv21 {
+        position: absolute;
+        top: 66.6vh;
+        left: 0;
+        height: 66.6vh;
+        object-fit: fill;
+        min-width: 100%;
+        z-index: -1;
+    }
+    .sepv22 {
+        position: absolute;
+        top: 133.2vh;
+        left: 0;
+        height: 66.6vh;
+        object-fit: fill;
+        min-width: 100%;
+        z-index: -1;
+    }
+    .roadMapImageDiv {
+        margin-top: 0%;
+    }
+    .longImagetext {
+        font-family: "secondPara";
+        font-weight: bold;
+        font-style: italic;
+        font-size: 0.7rem;
+    }
+    .longImage {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .sepv1div2 {
+        position: relative;
+        z-index: 55;
+        display: flex;
+        margin-bottom: 0;
+        height: 150vh;
+        box-shadow: 0 0 30px 10px rgb(31, 31, 31), /* inner white */
+        0 0 20px 10px rgb(31, 31, 31), /* middle magenta */
+        0 0 20px 20px rgb(31, 31, 31);
+    }
+    .thesepratecontentdiv2 {
+        position: absolute;
+        z-index: 5;
+        height: 150vh;
+        overflow-y: scroll;
+        box-shadow: 0 0 30px 10px rgb(31, 31, 31), /* inner white */
+        0 0 20px 10px rgb(31, 31, 31), /* middle magenta */
+        0 0 20px 20px rgb(31, 31, 31);
+    }
+    .thesepratecontentdiv2 {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .thesepratecontentdiv2::-webkit-scrollbar {
+        display: none;
+    }
+    .sepv2 {
+        position: absolute;
+        left: 0vh;
+        height: 50vh;
+        object-fit: fill;
+        min-width: 100%;
+        z-index: -1;
+    }
+    .sepv21 {
+        position: absolute;
+        top: 50vh;
+        left: 0;
+        height: 50vh;
+        object-fit: fill;
+        min-width: 100%;
+        z-index: -1;
+    }
+    .sepv22 {
+        position: absolute;
+        top: 100vh;
+        left: 0;
+        height: 50vh;
+        object-fit: fill;
+        min-width: 100%;
+        z-index: -1;
+    }
+    .roadMapImageDiv {
+        margin-top: 0%;
+    }
+    .longImagetext {
+        font-family: "secondPara";
+        font-weight: bold;
+        font-style: italic;
+        font-size: 0.7rem;
+    }
+    .longImage {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.sepv1div3 {
+    position: relative;
+    z-index: 0;
+    display: flex;
+    height: 200vh;
+}
+
+.sepv3 {
+    position: absolute;
+    left: 0vh;
+    height: 100vh;
+    object-fit: fill;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.sepv31 {
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    height: 100vh;
+    object-fit: fill;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.thesepratecontentdiv3 {
+    height: auto;
+    margin-top: 0%;
+    z-index: 5;
+    background-color: rgba(0, 128, 0, 0);
+}
+
+.ryuTeamImageDiv {
+    margin-top: 15%;
+}
+
+.sixdragonImagesDiv {
+    margin-top: 5%;
+}
+
+.ryuTeamImage {
+    width: 1200px;
+    max-width: 100%;
+}
+
+.sixDragonImages {
+    width: 300px;
+    max-width: 100%;
+    border: white 4px solid;
+    border-radius: 5px;
+}
+
+.dragonName {
+    width: 80px;
+    max-width: 100%;
+}
+
+@media (max-width: 575.98px) {
+    .sepv1div3 {
+        position: relative;
+        z-index: 15;
+        display: flex;
+        overflow: visible;
+        height: 100vh;
+    }
+    .sepv3 {
+        position: absolute;
+        left: 0vh;
+        height: 50vh;
+        object-fit: fill;
+        min-width: 100%;
+        z-index: -1;
+    }
+    .sepv31 {
+        position: absolute;
+        top: 50vh;
+        left: 0;
+        height: 50vh;
+        object-fit: fill;
+        min-width: 100%;
+        z-index: -1;
+    }
+    .thesepratecontentdiv3 {
+        height: 100vh;
+        margin-top: 0%;
+        z-index: 9;
+        overflow-y: scroll;
+        background-color: rgba(0, 128, 0, 0);
+    }
+}
+
+.thesepratecontentdiv3 {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.thesepratecontentdiv3::-webkit-scrollbar {
+    display: none;
+}
+
+.sepv1div4 {
+    position: relative;
+    z-index: 15;
+}
+
+.thesepratecontentdiv4 {
+    z-index: 8;
+    height: 100%;
+    /*   background: url('SiteImages/bottomOfTheSite.png') no-repeat;
+    background-size: 100%;
+    background-color: red;*/
+}
+
+.bottomImageDiv {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.bottomImage {
+    object-fit: cover;
+    width: 100%;
+}
+
+.joinRyuImage {
+    width: 80%;
+    max-width: 100%;
+}
+
+.socialIconHoldingDiv {
+    margin-top: 20%;
+}
+
+.socialBigIconsImages {
+    width: 250px;
+    max-width: 100%;
+}
+
+@media (max-width: 575.98px) {}
